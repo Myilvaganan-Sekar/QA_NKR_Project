@@ -31,4 +31,6 @@ public class BaseTest {
     public void flushReport() {
         extent.flush();
     }
+    
+    
 }

@@ -14,7 +14,7 @@ public class LoginTest extends BaseTest {
         driver.get("https://opensource-demo.orangehrmlive.com/");
         LoginPage login = new LoginPage(driver);
         login.loginToApp("Admin", "admin123");
-
+        System.out.println("Login Success");
         Assert.assertTrue(login.getCurrentUrl().contains("dashboard"), "Login Failed!");
     }
 }
