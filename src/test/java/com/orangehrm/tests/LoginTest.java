@@ -15,5 +15,6 @@ public class LoginTest extends BaseTest {
         LoginPage login = new LoginPage(driver);
         login.loginToApp("Admin", "admin123");
         Assert.assertTrue(login.getCurrentUrl().contains("dashboard"), "Login Failed!");
+        System.out.println("Welcome");
     }
 }
