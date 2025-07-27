@@ -7,7 +7,7 @@ public class LoginPage {
     private WebDriver driver;
 
     private By username = By.name("username");
-    private By password = By.name("#$password");
+    private By password = By.name("password");
     private By loginBtn = By.cssSelector("button[type='submit']");
 
     public LoginPage(WebDriver driver) {
